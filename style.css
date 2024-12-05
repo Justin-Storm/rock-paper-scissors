@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #212529 !important;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px 5px;
+}
+
+button {
+    background: teal;
+    color: #fff;
+    padding: 10px 20px;
+    border: #fff;
+    cursor: pointer;
+}
